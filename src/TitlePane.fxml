@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane fx:id="titlePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="400.0" styleClass="titleBk" stylesheets="@../css/Backgrounds.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TitlePaneController">
+   <children>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="3.0" layoutX="234.0" layoutY="-80.0" prefHeight="40.0" prefWidth="50.0" styleClass="root" stylesheets="@../css/closeBtn.css" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="minimizeBtn" mnemonicParsing="false" onAction="#minimize" prefHeight="16.0" prefWidth="20.0" styleClass="minimize" />
+            <Button fx:id="quitBtn" mnemonicParsing="false" onAction="#quit" prefHeight="16.0" prefWidth="20.0" styleClass="close" />
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

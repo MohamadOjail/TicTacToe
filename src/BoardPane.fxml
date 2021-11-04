@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="boardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="400.0" styleClass="board" stylesheets="@../css/Backgrounds.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BoardPaneController">
+   <children>
+      <GridPane alignment="CENTER" hgap="13.0" layoutX="30.0" layoutY="30.0" prefHeight="325.0" prefWidth="340.0" stylesheets="@../css/xoBtn.css" vgap="13.0" fx:id="xoGridPane">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="167.0" minWidth="10.0" prefWidth="108.75" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="125.5" minWidth="10.0" prefWidth="97.25" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.0" minWidth="10.0" prefWidth="107.25" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="139.25" minHeight="10.0" prefHeight="104.25" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="123.5" minHeight="10.0" prefHeight="95.75" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="137.75" minHeight="10.0" prefHeight="98.25" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" fx:id="xo1" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="1" fx:id="xo2" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="2" fx:id="xo3" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.rowIndex="1" fx:id="xo4" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="xo5" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="xo6" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.rowIndex="2" fx:id="xo7" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="xo8" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#xo_Clicked" prefHeight="84.0" prefWidth="108.0" text="Button" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xo9" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

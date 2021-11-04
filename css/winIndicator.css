@@ -1,0 +1,16 @@
+.imageViewerDefault{
+    
+    -fx-image: url(images/round0.png);
+}
+
+.imageViewerwin1{
+    -fx-image: url(images/roundWin1.png);
+}
+
+.imageViewerwin2{
+    -fx-image: url(images/roundWin2.png);
+}
+
+.imageViewerwin3{
+    -fx-image: url(images/roundWin3.png);
+}

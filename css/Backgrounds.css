@@ -1,0 +1,31 @@
+.root{
+	
+	-fx-background-color: transparent;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.titleBk{
+	
+	-fx-background-image: url(images/01-back-title.png);
+}
+
+.ops{
+	
+	-fx-background-image: url(images/01-back-ops.png);
+}
+
+.board{
+	
+	-fx-background-image: url(images/01-back-board.png);
+}
+
+.boardYouWin{
+	
+	-fx-background-image: url(images/01-back-youWin.png);
+}
+
+.boardCompWins{
+	
+	-fx-background-image: url(images/01-back-compWins.png);
+}

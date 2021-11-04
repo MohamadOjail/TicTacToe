@@ -1,0 +1,22 @@
+.button{
+	-fx-background-color: transparent;
+	-fx-background-size: 18;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.button:hover{
+	-fx-background-size: 20;
+}
+
+.button:pressed{
+	-fx-background-size: 22;
+}
+
+.close{
+	-fx-background-image: url(images/close.png);
+}
+
+.minimize{
+	-fx-background-image: url(images/minimize.png);
+}

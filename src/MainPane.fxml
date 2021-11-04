@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragPane" onMousePressed="#paneGetPos" prefHeight="600.0" prefWidth="400.0" stylesheets="@../css/Backgrounds.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainPaneController">
+   <children>
+      <AnchorPane fx:id="titlePane" layoutX="66.0" layoutY="72.0" prefHeight="40.0" prefWidth="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <fx:include fx:id="titlePane" source="TitlePane.fxml"/>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="opsPane" layoutX="59.0" layoutY="144.0" prefHeight="170.0" prefWidth="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <fx:include fx:id="opsPane" source="OpsPane.fxml" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="boardPane" layoutX="84.0" layoutY="343.0" prefHeight="390.0" prefWidth="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="210.0">
+         <children>
+            <fx:include fx:id="boardPane" source="BoardPane.fxml" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

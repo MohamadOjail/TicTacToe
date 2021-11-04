@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="opsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="400.0" styleClass="ops" stylesheets="@../css/Backgrounds.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.OpsPaneController">
+   <children>
+      <HBox fx:id="newGameBtnPane" alignment="CENTER" layoutX="84.0" layoutY="76.0" prefHeight="32.0" prefWidth="200.0" stylesheets="@../css/newGameBtn.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="125.0">
+         <children>
+            <Button fx:id="newGameBtn" contentDisplay="CENTER" mnemonicParsing="false" onAction="#newGameClicked" prefHeight="31.0" prefWidth="370.0" stylesheets="@../css/newGameBtn.css" text="New Game" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="compIndicatorPane" layoutX="70.0" layoutY="76.0" prefHeight="17.0" prefWidth="72.0" stylesheets="@../css/winIndicator.css">
+         <children>
+            <ImageView fx:id="compIndicatorView" fitHeight="17.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewerDefault" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="userIndicatorPane" layoutX="262.0" layoutY="76.0" prefHeight="17.0" prefWidth="72.0" stylesheets="@../css/winIndicator.css">
+         <children>
+            <ImageView fx:id="userIndicatorView" fitHeight="17.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewerDefault" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
