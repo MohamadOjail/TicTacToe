@@ -31,6 +31,6 @@ Which worked beautifully!
 I’ve created a simplified example for those who want to learn about injecting Controllers in a multiple FXML environment: [JavaFx multiple Controllers communications. – (tutorial)](https://github.com/MohamadOjail/JavaFx-multiple-Controllers-communications-tutorial.git "JavaFx multiple Controllers communications. – (tutorial)")
 
 ## Here’s a little demo:
-![](/images/demo.gif)
+![](/css/images/demo.gif)
 
 `one side note: the project was created before I learned how to use Github`
